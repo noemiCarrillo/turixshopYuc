@@ -22,4 +22,12 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+
+	public function acceso(){
+		$usuario = $this->input->post('user');
+		$pwd = $this->input->post('pwd');
+
+		echo $usuario;
+		echo $pwd;
+	}
 }

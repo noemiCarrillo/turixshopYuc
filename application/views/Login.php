@@ -96,14 +96,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card col-lg-4 mx-auto">
               <div class="card-body px-5 py-5">
                 <h3 class="card-title text-left mb-3">Login</h3>
-                <form action="logueo" method="post">
+                <form action="acceso" method="post">
                   <div class="form-group">
                     <label>Username or email *</label>
-                    <input type="text" class="form-control p_input">
+                    <input name="user" type="text" class="form-control p_input">
                   </div>
                   <div class="form-group">
                     <label>Password *</label>
-                    <input type="text" class="form-control p_input">
+                    <input name="pwd" type="text" class="form-control p_input">
                   </div>
                   <div class="form-group d-flex align-items-center justify-content-between hidden">
                     <div class="form-check">
